@@ -20,7 +20,7 @@ div {
 }
 
 header {
-  display: block; 
+  display: block;
   position: fixed;
   border-bottom: 1px solid seashell;
   width: 100%;
@@ -133,4 +133,9 @@ h4 {
   margin: 5px 20px;
   padding: 10px;
   opacity: 1.0;
+}
+
+/* Contact us section */
+#contact {
+  height: 200px; 
 }
