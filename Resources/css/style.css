@@ -40,3 +40,11 @@ a {
   color: seashell;
   text-decoration: underline;
 }
+
+/* Our mission section */
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
