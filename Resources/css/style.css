@@ -88,6 +88,7 @@ h2 {
 h2 content {
   background-color: black;
 }
+
 h4 {
   display: block;
   font-weight: bold;
@@ -156,4 +157,11 @@ h5 {
   text-align: center;
   font-weight: bold;
   justify-content: center;
+}
+
+/* footer */
+
+#footer h5 {
+  text-align: left;
+  padding-left: 20px;
 }
