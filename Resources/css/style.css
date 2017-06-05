@@ -78,10 +78,11 @@ a {
 h2 {
   display: block;
   font-weight: bold;
+  font-size: 33px;
   text-align: center;
   margin: 0;
-  justify-content: center;
-  width: 1200px;
+  width: 1180px;
+  height: 38px; 
 
 }
 
