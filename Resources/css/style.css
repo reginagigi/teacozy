@@ -49,6 +49,7 @@ nav span {
 a {
   color: seashell;
   text-decoration: underline;
+  padding-right: 10px;
 }
 
 
@@ -62,10 +63,17 @@ a {
 }
 
 #mission {
-  width: 1200px;
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   justify-content: center;
+  width: 1200px;
+}
+
+#mission h2 {
+  background-color: black;
+  align-items: center;
+  width: 1180px;
+  height; 38px;
 }
 
 h2 {
@@ -74,10 +82,12 @@ h2 {
   text-align: center;
   margin: 0;
   justify-content: center;
-  background-color: black;
   width: 1200px;
 }
 
+h2 content {
+  background-color: black;
+}
 h4 {
   display: block;
   font-weight: bold;
@@ -106,6 +116,7 @@ h4 {
   height: 200px;
   margin: 10px;
   display: block;
+  justify-content: center;
 }
 
 .item span {
@@ -113,6 +124,7 @@ h4 {
   display: block;
   font-weight: bold;
   text-align: center;
+  justify-content: center;
 }
 
 /* locations */
@@ -137,5 +149,11 @@ h4 {
 
 /* Contact us section */
 #contact {
-  height: 200px; 
+  height: 200px;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
