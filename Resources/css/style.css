@@ -16,7 +16,6 @@ body {
 }
 
 header {
-  display: flex;
   position: fixed;
   border-bottom: 1px solid seashell;
   width: 100%;
@@ -37,10 +36,16 @@ nav {
   flex-grow: 1;
 }
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 a {
   color: seashell;
   text-decoration: underline;
 }
+
 
 /* Our mission section */
 
