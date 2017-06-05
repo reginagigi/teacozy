@@ -66,12 +66,13 @@ a {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   padding-top: 70px;
+  width: 1200px;
 }
 
 #mission .content {
   margin: auto;
   background-color: black;
-  width: 100%;
+  width: 1200px;
 }
 
 
@@ -81,7 +82,7 @@ h2 {
   font-size: 33px;
   text-align: center;
   margin: 0;
-  width: 1000px;
+  width: 1200px;
   height: 38px;
 
 }
@@ -110,6 +111,15 @@ h4 {
   padding-top: 70px;
 }
 
+#store h2 {
+  width: 980px;
+  height: 38px;
+}
+
+#store h4 {
+  width: 980px;
+  height: 25px;
+}
 .item {
   padding: 5px;
 }
@@ -155,18 +165,20 @@ h4 {
 /* Contact us section */
 #contact {
   height: 200px;
-  text-align: center;
 }
 
 #contact h2 {
-  text-align: center;
-  justify-content: center;
   padding: 10px;
+  width: 1200px;
+  height: 38px;
+  text-align: center;
 }
 
-h5 {
+#contact h5 {
   font-weight: bold;
-  justify-content: center;
+  height: 21px;
+  width: 1200px;
+  text-align: center;
 }
 
 /* footer */
