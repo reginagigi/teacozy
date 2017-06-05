@@ -20,7 +20,6 @@ div {
 }
 
 header {
-  display: block;
   position: fixed;
   border-bottom: 1px solid seashell;
   width: 100%;
@@ -65,17 +64,16 @@ a {
 
 #mission {
   height: 700px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  justify-content: center;
-  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
 }
 
-#mission h2 {
+#mission .content {
+  margin: auto;
   background-color: black;
-  align-items: center;
-  width: 1180px;
-  height; 38px;
+  width: 100%;
 }
+
 
 h2 {
   display: block;
