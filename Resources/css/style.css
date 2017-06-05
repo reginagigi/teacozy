@@ -9,6 +9,11 @@ body {
 
 /* Header Section */
 
+.flex container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 header {
   display: flex;
 }
@@ -16,5 +21,4 @@ header {
 header img {
   padding-left: 10px;
   height: 50px;
-
 }
