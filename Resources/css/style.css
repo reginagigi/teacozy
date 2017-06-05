@@ -130,9 +130,14 @@ h4 {
 /* locations */
 
 #locations {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   padding-top: 70px;
+}
+
+#locations h2 {
+  width: 1180px;
+  height: 38px;
 }
 
 .location {
